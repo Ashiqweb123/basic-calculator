@@ -1,0 +1,36 @@
+.headline {
+    text-align: center;
+    background-color: orangered;
+}
+
+.field {
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+table {
+    /* display: inline; */
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn {
+    height: 45px;
+    width: 78px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.calculator {
+    margin: auto;
+}
+
+.calc-container {
+    border: 3px solid gray;
+    width: 430px;
+    height: 330px;
+    background-color: black;
+    border-radius: 30px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h2 class="headline">Calculator</h2>
+
+            <!-- <input type="text" id='display' class="field"> -->
+
+            <div class="calc-container">
+                <input onclick="" type="text" id='view' class="field">
+                <table>
+                    <tr>
+                        <td><button onclick="display('1')" class='btn' id='display'>1</button></td>
+                        <td><button onclick="display('2')" class='btn' id='display'>2</button></td>
+                        <td><button onclick="display('3')" class='btn' id='display'>3</button></td>
+                        <td><button onclick="display('+')" class='btn' id='display'>+</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><button onclick="display('4')" class='btn' id='display'>4</button></td>
+                        <td><button onclick="display('5')" class='btn' id='display'>5</button></td>
+                        <td><button onclick="display('6')" class='btn' id='display'>6</button></td>
+                        <td><button onclick="display('-')" class='btn' id='display'>-</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><button onclick="display('7')" class='btn' id='display'>7</button></td>
+                        <td><button onclick="display('8')" class='btn' id='display'>8</button></td>
+                        <td><button onclick="display('9')" class='btn' id='display'>9</button></td>
+                        <td><button onclick="display('*')" class='btn' id='display'>*</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><button onclick="display('0')" class='btn' id='display'>0</button></td>
+                        <td><button onclick="display('.')" class='btn' id='display'>.</button></td>
+                        <td><button onclick="display('%')" class='btn' id='display'>%</button></td>
+                        <td><button onclick="display('/')" class='btn' id='display'>/</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><button onclick="display('(')" class='btn' id='display'>(</button></td>
+                        <td><button onclick="display(')')" class='btn' id='display'>)</button></td>
+                        <td><button onclick="solve()" class='btn' id='solve'>=</button></td>
+                        <td><button onclick="clr()" class='btn' id='clr'>C</button></td>
+
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
